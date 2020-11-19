@@ -1,0 +1,16 @@
+personinfo:
+  name: jack
+  age: 19
+
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: blog-admin
+
+logging:
+  level:
+    com.june.blog.dao: debug
+
+
